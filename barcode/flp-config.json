@@ -1,0 +1,35 @@
+{
+    "application": {
+        "id": "",
+        "title": "com.barcode.barcode.barcode",
+        "description": "barcode sample app",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/",
+        "appUrl": "#barcode-Display",
+        "navigationComponentName": "com.barcode.barcode",
+        "intentSemanticObject": "barcode",
+        "intentAction": "Display",
+        "html5ApplicationName": "barcode",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "c96574f7-5dea-45e3-8032-c5119603b241"
+        ],
+        "contentPackages": [
+            "dd3d3b97-36d8-4ef5-8705-15e03259320e"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "Barcode",
+        "subtitle": "Barcode Scanner",
+        "searchKeywords": "Barcode,Barcode Scanner",
+        "displayIconUrl": "sap-icon://bar-code",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}

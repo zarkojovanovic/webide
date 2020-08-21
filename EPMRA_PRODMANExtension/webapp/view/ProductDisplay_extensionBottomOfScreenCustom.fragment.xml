@@ -1,0 +1,34 @@
+<!--<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form"-->
+<!--	xmlns:mvc="sap.ui.core.mvc" xmlns:prod="nw.epm.refapps.ext.prod.manage.control">-->
+	<!-- This extension point can be used to add fields to content -->
+
+	<!--<f:SimpleForm xmlns:f="sap.ui.layout.form" id="supplierInformationForm" class="sapUiForceWidthAuto sapUiResponsiveMargin" minWidth="1024" maxContainerCols="2" editable="false" layout="ResponsiveGridLayout" labelSpanL="4" labelSpanM="4" emptySpanL="1" emptySpanM="1" columnsL="7" columnsM="7" title="{i18n>xtit.supplierInfo}">-->
+	<!--			<f:content>-->
+	<!--				<Label xmlns="sap.m" id="companyLabel_clone" text="{/#Supplier/Name/@sap:label}"/>-->
+	<!--				<Text xmlns="sap.m" id="unitText_clone" text="{Name}"/>-->
+	<!--				<Label xmlns="sap.m" id="heightLabel_clone" text="{/#Supplier/Phone/@sap:label}"/>-->
+	<!--				<Text xmlns="sap.m" id="heightText_clone" text="{Phone}"/>-->
+	<!--				<Label xmlns="sap.m" id="widthLabel_clone" text="{/#Supplier/FormattedAddress/@sap:label}"/>-->
+	<!--				<Text xmlns="sap.m" id="widthText_clone" text="{FormattedAddress}"/>-->
+	<!--				<Label xmlns="sap.m" id="depthLabel_clone" text="{/#Supplier/FormattedContactName/@sap:label}"/>-->
+	<!--				<Text xmlns="sap.m" id="depthText_clone" text="{FormattedContactName}"/>-->
+	<!--				<Label xmlns="sap.m" id="weightLabel_clone" text="{/#Supplier/ContactEmail/@sap:label}"/>-->
+	<!--				<Text xmlns="sap.m" id="weightText_clone" text="{ContactEmail}"/>-->
+	<!--			</f:content>-->
+	<!--		</f:SimpleForm> -->
+<!--	<f:SimpleForm xmlns:f="sap.ui.layout.form" id="supplier" -->
+<!--					class="sapUiForceWidthAuto sapUiResponsiveMargin" -->
+<!--					minWidth="1024" maxContainerCols="2" editable="false" -->
+<!--					layout="ResponsiveGridLayout" -->
+<!--					labelSpanL="4" -->
+<!--					labelSpanM="4" -->
+<!--					emptySpanL="1" -->
+<!--					emptySpanM="1" -->
+<!--					columnsL="7" columnsM="7" title="{i18n>xtit.supplierInfo}">-->
+<!--				<f:content>-->
+<!--					<Label xmlns="sap.m" id="companyLabel_clone" text="{/#Product/Stockavailability/@sap:label}"/>-->
+<!--					<Text xmlns="sap.m" id="unitText_clone" text="{Stockavailability}" />-->
+<!--				</f:content>-->
+<!--			</f:SimpleForm> -->
+
+<!--</core:FragmentDefinition>-->

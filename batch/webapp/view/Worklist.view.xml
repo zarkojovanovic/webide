@@ -1,0 +1,48 @@
+<mvc:View controllerName="batch.batch.controller.Worklist" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.f.semantic">
+	<Page title="{i18n>title}">
+		<content>
+			<Table id="table" headerText="Batch" items="{/ProductSet}">
+				<headerToolbar>
+					<Toolbar>
+						<content>
+							<Button icon="sap-icon://add" press="onAddRow"></Button>
+							<Button icon="sap-icon://save" press="onBatchSave"></Button>
+						</content>
+					</Toolbar>
+				</headerToolbar>
+				<columns>
+					<Column>
+						<header>
+							<Label text="ProductID"></Label>
+						</header>
+					</Column>
+					<Column>
+						<header>
+							<Label text="Name"></Label>
+						</header>
+					</Column>
+					<Column>
+						<header>
+							<Label text="NameLanguage"></Label>
+						</header>
+					</Column>
+					<Column>
+						<header>
+							<Label text="Description"></Label>
+						</header>
+					</Column>
+				</columns>
+				<items>
+					<ColumnListItem>
+						<cells>
+							<Input id="id" value="{ProductID}" liveChange="handleLiveChange"/>
+							<Input id="name" value="{Name}" liveChange="handleLiveChange"/>
+							<Input id="lang" value="{NameLanguage}" liveChange="handleLiveChange"/>
+							<Input id="desc" value="{Description}" liveChange="handleLiveChange"/>
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+		</content>
+	</Page>
+</mvc:View>
